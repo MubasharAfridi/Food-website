@@ -1,0 +1,164 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 1px solid black;
+}
+/* .top-navbar{
+    position: static;
+} */
+.bg{
+    background-image: url('./images/home-bg.jpg');
+    background-position: center;
+    /* background-size: cover; */
+    margin-left: -20px;
+}
+
+
+
+/* firstbody div css */
+.firstbody-box{
+    position: relative;
+    top: 80px;
+}
+.ordernow-button{
+    border: 1px solid red;
+    width: 157px;
+    padding-left: 35px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.5s;
+
+}
+.ordernow-button:hover{
+    /* color: white;
+    background-color: rgb(212, 27, 27); */
+    box-shadow: inset 157px 0 0 0 rgb(212, 27, 27);
+}
+.firstbody-text{
+    position: relative;
+    top: 50px;
+}
+.firstbody-text h1{
+    font-weight: bolder;
+}
+/* @media screen and (max-width: 767px) {
+    .firstbody-box{
+        position: relative;
+        top: -40px;
+    }
+    .firstbody-img img{
+        width: 400px;
+        position: relative;
+        top: 100px;
+    }
+    
+    }
+  */
+        @media screen and (max-width: 767px) {
+            .firstbody-box{
+                position: relative;
+                top: -40px;
+                left: 25px;
+            }
+             .firstbody-img img{
+                /* width: 200px;
+                height: 100%;
+                position: relative;
+                top: 100px; */
+                margin-top:75px;
+            } 
+            .second-bodydiv{
+                /* position: relative;
+                top: 80px; */
+                margin-top: -180px;
+            }
+            .box {
+                margin-bottom: 35px;
+            }
+            .secondbody-title h1{
+                font-size: 25px;
+            }
+            .third-bodydiv{
+                margin-top: -100px;
+            }
+            .thirdbody-title h1{
+                font-size: 25px;
+            }
+            .top-navbar{
+                width: 100%;
+            }
+            .fourthbody-div{
+                margin-top: -100px;
+            }
+            .fourthbody-div h1{
+                font-size: 25px;
+            }
+            .fourthbody-div h2{
+                font-size: 20px !important;
+                font-weight: bold !important;
+                /* text-align-last: auto; */
+                /* letter-spacing: 2.3px; */
+            }
+            .fifthbody-title h1{
+                font-size: 25px;
+            }
+            
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            .firstbody-box{
+                position: relative;
+                top: -40px;
+            }
+            .firstbody-img img{
+                width: 500px;
+                position: relative;
+                top: 80px;
+            }
+            .top-navbar{
+                width: 100%;
+            }
+                   
+                }
+
+
+
+/* second body css */
+.second-bodydiv{
+    position: relative;
+    top: 200px;
+}
+.second-bodydiv  .firstbody-title h1{
+    font-weight: bolder;
+}
+
+
+
+/* third body css */
+.third-bodydiv {
+    position: relative;
+    top: 300px;
+}
+
+/* fourth body css */
+.fourthbody-div{
+    position: relative;
+    top: 400px;
+}
+.fourthbody-div h2{
+    font-size: 30px;
+    font-weight:500;
+    margin-top: 5px;
+    /* text-align-last: auto; */
+    /* letter-spacing: 2.3px; */
+}
+
+
+/* fifthbody css */
+.fifth-bodydiv {
+    position: relative;
+    top: 500px;
+}
